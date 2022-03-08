@@ -1,9 +1,8 @@
-package com.company.highLevel.hash.pro1;
-
+package com.company.Algorithm.highLevel.hash.pro1;
+//완주하지 못한 선수
 import java.util.HashMap;
 
 public class Main {
-
     public static void main(String[] args) {
 
         String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
