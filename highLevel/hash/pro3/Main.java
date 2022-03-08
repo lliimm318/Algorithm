@@ -1,9 +1,8 @@
-package com.company.highLevel.hash.pro3;
-
+package com.company.Algorithm.highLevel.hash.pro3;
+// 위장
 import java.util.HashMap;
 
 public class Main {
-
     public static void main(String[] args) {
 
         String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
