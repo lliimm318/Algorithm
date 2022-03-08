@@ -1,9 +1,8 @@
-package com.company.highLevel.hash.pro2;
-
+package com.company.Algorithm.highLevel.hash.pro2;
+// 전화번호 목록
 import java.util.HashMap;
 
 public class Main {
-
     public static void main(String[] args) {
 
         String[] phone_book = {"119", "9767", "115"};
