@@ -1,4 +1,4 @@
-package com.company.Algorithm.sort;
+package com.company.Algorithm.sort.selection;
 
 //선택 정렬 Selection Sort
 public class Main {
