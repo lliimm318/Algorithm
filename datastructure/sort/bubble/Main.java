@@ -1,4 +1,4 @@
-package com.company.Algorithm.sort.bubble;
+package com.company.Algorithm.datastructure.sort.bubble;
 
 //버블 정렬 Bubble sort
 public class Main {
