@@ -1,7 +1,7 @@
-package com.company.Algorithm.highLevel.hash.pro2;
-// 전화번호 목록
-import java.util.HashMap;
+package com.company.Algorithm.programmers.highlevel.hash.pro2;
 
+import java.util.HashMap;
+// 전화번호 목록
 public class Main {
     public static void main(String[] args) {
 
