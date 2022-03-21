@@ -1,4 +1,4 @@
-package com.company.Algorithm.sort.insertion;
+package com.company.Algorithm.datastructure.sort.insertion;
 
 //선택 정렬 Insertion Sort
 public class Main {
