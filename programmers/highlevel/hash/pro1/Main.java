@@ -1,7 +1,7 @@
-package com.company.Algorithm.highLevel.hash.pro1;
-//완주하지 못한 선수
-import java.util.HashMap;
+package com.company.Algorithm.programmers.highlevel.hash.pro1;
 
+import java.util.HashMap;
+//완주하지 못한 선수
 public class Main {
     public static void main(String[] args) {
 
