@@ -1,4 +1,5 @@
-package com.company.Algorithm.level1.normal.soundControl;
+package com.company.Algorithm.programmers.level1.normal.sound;
+
 //음향 더하기
 public class Main {
     public static void main(String[] args) {
