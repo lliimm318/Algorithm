@@ -1,4 +1,4 @@
-package com.company.Algorithm.level1.normal.knumber;
+package com.company.Algorithm.programmers.level1.normal.knumber;
 
 import java.util.Arrays;
 
