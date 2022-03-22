@@ -1,4 +1,5 @@
-package com.company.Algorithm.level1.normal.dotProduct;
+package com.company.Algorithm.programmers.level1.normal.dotProduct;
+
 // 내적
 public class Main {
     public static void main(String[] args) {
