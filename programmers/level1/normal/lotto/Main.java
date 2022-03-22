@@ -1,4 +1,5 @@
-package com.company.Algorithm.level1.normal.lotto;
+package com.company.Algorithm.programmers.level1.normal.lotto;
+
 // 로또의 최고 순위와 최저 순위
 public class Main {
     public static void main(String[] args) {
