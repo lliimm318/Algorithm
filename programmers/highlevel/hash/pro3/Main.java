@@ -1,7 +1,8 @@
-package com.company.Algorithm.highLevel.hash.pro3;
-// 위장
+package com.company.Algorithm.programmers.highlevel.hash.pro3;
+
 import java.util.HashMap;
 
+//위장
 public class Main {
     public static void main(String[] args) {
 
