@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.samenum;
+package com.company.Algorithm.programmers.level1.normal.same.num;
 
 import java.util.Arrays;
 import java.util.LinkedList;
