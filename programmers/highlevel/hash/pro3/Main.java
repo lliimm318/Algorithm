@@ -19,6 +19,6 @@ public class Main {
         for (String key : closet.keySet()) {
             answer *= closet.get(key);
         }
-        System.out.println(answer-1);
+
     }
 }
