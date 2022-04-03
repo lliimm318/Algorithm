@@ -10,17 +10,18 @@ public class Main {
 
         HashMap<String, String> phone = new HashMap<>();
 
-        for (String number : phone_book) {
+        for(String number : phone_book) {
             phone.put(number, number);
         }
 
-        for (String number : phone_book) {
+        for(String number : phone_book) {
             for (int i = 0; i < number.length(); i++) {
-                if (phone.containsKey(number.substring(0, i))) {
+                if(phone.containsKey(number.substring(0, i))) {
                     answer = false;
                 }
             }
         }
+
 
     }
 }
