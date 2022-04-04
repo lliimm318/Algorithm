@@ -1,15 +1,19 @@
 # 알고리즘
 **Language - JAVA**
 
-프로그래머스, 수업 시간, 자료구조 코드를 커밋하는 레포입니다
+코딩테스트 준비, 자료구조, 수업 시간, 프로그래머스 코드를 커밋하는 레포입니다
 
 ```
 scr
  ㄴ com.company
  		ㄴ Algorithm
+ 				ㄴ cording.test
  				ㄴ datastructure
  				ㄴ lesson
+	 				ㄴ linear
+	 				ㄴ nonlinear
  				ㄴ programmers
+	 				ㄴ level 
 		
 ```
 
