@@ -10,7 +10,6 @@ public class Main {
 
         int[] answer = new int[commands.length];
 
-
         for(int i = 0; i < commands.length; i++) {
             int[] tmp = new int[commands[i][1]-(commands[i][0]-1)];
             for(int j = 0; j < tmp.length; j++){
@@ -18,7 +17,6 @@ public class Main {
             }
             Arrays.sort(tmp);
             answer[i] = tmp[commands[i][2]-1];
-            System.out.println(answer[i]);
         }
 
     }
