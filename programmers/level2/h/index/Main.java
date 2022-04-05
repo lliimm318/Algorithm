@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level2.normal.h.index;
+package com.company.Algorithm.programmers.level2.h.index;
 
 import java.util.Arrays;
 
