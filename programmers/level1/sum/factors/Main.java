@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.sum.factors;
+package com.company.Algorithm.programmers.level1.sum.factors;
 
 //약수의 합
 public class Main {
