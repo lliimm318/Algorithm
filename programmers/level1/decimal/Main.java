@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.decimal;
+package com.company.Algorithm.programmers.level1.decimal;
 
 //소수 만들기
 public class Main {
