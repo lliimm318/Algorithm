@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.xinterval;
+package com.company.Algorithm.programmers.level1.xinterval;
 
 //x만큼 간격이 있는 n개의 숫자
 public class Main {
