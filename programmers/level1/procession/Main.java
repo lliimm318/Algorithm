@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.procession;
+package com.company.Algorithm.programmers.level1.procession;
 
 //행렬의 덧셈
 public class Main {
