@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.divisor;
+package com.company.Algorithm.programmers.level1.divisor;
 
 //약수의 개수와 덧셈
 public class Main {
