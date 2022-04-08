@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.sound;
+package com.company.Algorithm.programmers.level1.sound;
 
 //음향 더하기
 public class Main {
