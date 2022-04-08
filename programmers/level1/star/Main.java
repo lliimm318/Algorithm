@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.star;
+package com.company.Algorithm.programmers.level1.star;
 
 import java.util.Scanner;
 
