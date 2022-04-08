@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.descending;
+package com.company.Algorithm.programmers.level1.descending;
 
 import java.util.Arrays;
 import java.util.Collections;
