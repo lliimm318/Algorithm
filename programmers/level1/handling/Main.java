@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.handling;
+package com.company.Algorithm.programmers.level1.handling;
 
 //문자열 다루기 기본
 public class Main {
