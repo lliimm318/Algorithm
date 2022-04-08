@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.average;
+package com.company.Algorithm.programmers.level1.average;
 
 //평균 구하기
 public class Main {
