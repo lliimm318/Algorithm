@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.change.num;
+package com.company.Algorithm.programmers.level1.change.num;
 
 //문자열 정수로 바꾸기
 public class Main {
