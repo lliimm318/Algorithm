@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.divid.arr;
+package com.company.Algorithm.programmers.level1.divid.arr;
 
 import java.util.ArrayList;
 import java.util.Arrays;
