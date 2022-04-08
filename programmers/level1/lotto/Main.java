@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.lotto;
+package com.company.Algorithm.programmers.level1.lotto;
 
 // 로또의 최고 순위와 최저 순위
 public class Main {
