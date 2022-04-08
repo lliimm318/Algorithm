@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.poketmon;
+package com.company.Algorithm.programmers.level1.poketmon;
 
 import java.util.HashSet;
 
