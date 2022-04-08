@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.kim;
+package com.company.Algorithm.programmers.level1.kim;
 
 //서울에서 김서방 찾기
 public class Main {
