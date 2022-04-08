@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.twozeroonesix;
+package com.company.Algorithm.programmers.level1.twozeroonesix;
 
 //2016
 public class Main {
