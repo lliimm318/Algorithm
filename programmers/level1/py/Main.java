@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.py;
+package com.company.Algorithm.programmers.level1.py;
 
 //문자열 내 p와 y의 개수
 public class Main {
