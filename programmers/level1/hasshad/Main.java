@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.hasshad;
+package com.company.Algorithm.programmers.level1.hasshad;
 
 // 하샤드 수
 public class Main {
