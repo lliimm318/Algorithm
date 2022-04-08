@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.mid;
+package com.company.Algorithm.programmers.level1.mid;
 
 // 가운데 글자 가져오기
 public class Main {
