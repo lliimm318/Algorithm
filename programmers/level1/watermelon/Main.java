@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.watermelon;
+package com.company.Algorithm.programmers.level1.watermelon;
 
 //수박수박수박수박수박수?
 public class Main {
