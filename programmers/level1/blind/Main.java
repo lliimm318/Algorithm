@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.blind;
+package com.company.Algorithm.programmers.level1.blind;
 
 //핸드폰 번호 가리기
 public class Main {
