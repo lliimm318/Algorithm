@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.add.numbers;
+package com.company.Algorithm.programmers.level1.add.numbers;
 
 //없는 숫자 더하기
 public class Main {
