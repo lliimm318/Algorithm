@@ -1,4 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.mysort;
+package com.company.Algorithm.programmers.level1.mysort;
 
 import java.util.ArrayList;
 import java.util.Collections;
