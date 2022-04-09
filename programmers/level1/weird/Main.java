@@ -1,6 +1,4 @@
-package com.company.Algorithm.programmers.level1.normal.weird;
-
-import java.util.Locale;
+package com.company.Algorithm.programmers.level1.weird;
 
 //이상한 문자 구하기
 public class Main {
