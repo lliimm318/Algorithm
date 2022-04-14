@@ -9,14 +9,23 @@ public class Main {
         int answer = 0;
 
         for(int i = 0; i < skill_trees.length; i++) {
-            for(int j = 0; j < skill.length(); j++) {
-                for(int k = 0; k < skill_trees[i].length(); k++) {
-                    if(skill_trees[i].charAt(k) == skill.charAt(0)) {
-                        answer++;
-                    }
+            StringBuilder sb = new StringBuilder();
+            String skills = skill_trees[i];
+            for(int j = 0; j < skills.length(); j++) {
+                if(skill.contains(String.valueOf(skills.charAt(j)))) {
+                    sb.append(skills.charAt(j));
+                }
+            }
+
+            for (int j = skill.length(); j>-1; j--) {
+                String s = skill.substring(0, j);
+                if(s.equals(sb.toString())) {
+                    answer++;
+                    break;
                 }
             }
         }
+        System.out.println(answer);
 
     }
 }
