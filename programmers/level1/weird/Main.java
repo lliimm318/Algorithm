@@ -7,15 +7,19 @@ public class Main {
 
         String answer = "";
 
-        String[] arr = s.split("");
+        String[] arr = s.toLowerCase().split(" ");
 
-        for(int i = 0; i < s.length(); i++) {
-            if(i%2 == 0) {
-               arr[i].toUpperCase();
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length(); j++) {
+                if (j % 2 == 0) {
+                    answer += (arr[i].charAt(j) + "").toUpperCase();
+                } else {
+                    answer += (arr[i].charAt(j) + "").toLowerCase();
+                }
             }
-            answer.concat(arr[i]);
+            answer += " ";
         }
-
+        answer = answer.substring(0, answer.length()-1);
         System.out.println(answer);
 
     }
