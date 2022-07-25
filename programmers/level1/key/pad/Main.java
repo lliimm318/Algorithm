@@ -6,44 +6,49 @@ public class Main {
         int[] number = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
         String hand = "left";
 
-        String answer = "";
+        solution(number, hand);
+    }
+    private static String solution(int[] numbers, String hand) {
+        StringBuilder answer = new StringBuilder();
+
         int handL = 10;
         int handR = 12;
 
-        for(int num : number) {
-            if(num == 1 || num == 4 || num == 7) {
-                answer += "L";
-                handL = num;
+
+        for (int number : numbers) {
+            if (number == 1 || number == 4 || number == 7) {
+                answer.append("L");
+                handL = number;
             }
-            else if(num == 3 || num == 6 || num == 9) {
-                answer += "R";
-                handR = num;
+            else if (number == 3 || number == 6 || number == 9) {
+                answer.append("R");
+                handR = number;
             }
             else {
-                if(num == 0) {
-                    num = 11;
+                if (number == 0) number = 11;
+
+                int leftD = Math.abs(number-handL)/3 + Math.abs(number-handL)%3;
+                int rightD = Math.abs(number-handR)/3 + Math.abs(number-handR)%3;
+
+                if (leftD < rightD) {
+                    answer.append("L");
                 }
-                int left = (Math.abs(handL - num)) / 3 + (Math.abs(handL-num)) %3;
-                int right = (Math.abs(handR - num))/3 + (Math.abs(handR-num))%3;
-                if (left > right) {
-                    answer += "R";
-                    handR = num;
+                else if (leftD > rightD) {
+                    answer.append("R");
                 }
-                else if(left < right) {
-                    answer += "L";
-                    handL = num;
-                }
-                else if(left == right) {
-                    if(hand.equals("right")) {
-                        answer += "R";
-                        right = num;
-                    }else {
-                        answer += "L";
-                        left = num;
+                else {
+                    if (hand.equals("right")) {
+                        answer.append("R");
+                        handR = number;
+                    }
+                    else {
+                        answer.append("L");
+                        handL = number;
                     }
                 }
             }
         }
-        System.out.println(answer);
+
+        return answer.toString();
     }
 }
