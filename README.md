@@ -10,8 +10,6 @@ scr
  				ㄴ cording.test
  				ㄴ datastructure
  				ㄴ lesson
-	 				ㄴ linear
-	 				ㄴ nonlinear
  				ㄴ programmers
 	 				ㄴ level 
 		
