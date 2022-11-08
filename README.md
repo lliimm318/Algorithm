@@ -4,14 +4,11 @@
 코딩테스트 준비, 자료구조, 수업 시간, 프로그래머스 코드를 커밋하는 레포입니다
 
 ```
-scr
- ㄴ com.company
- 		ㄴ Algorithm
- 				ㄴ cording.test
- 				ㄴ datastructure
- 				ㄴ lesson
- 				ㄴ programmers
-	 				ㄴ level 
+ㄴ cording.test
+ㄴ datastructure
+ㄴ lesson
+ㄴ programmers
+	ㄴ level 
 		
 ```
 
