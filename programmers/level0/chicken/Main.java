@@ -9,8 +9,16 @@ public class Main {
         int answer = 0;
         int c = 0;
 
+        if (chicken == 0) return answer;
+
         while (chicken != 0) {
-            chicken
+            if (c % 10 == 0) {
+                c = c - 10;
+                chicken++;
+                answer++;
+            }
+            chicken--;
+            c++;
         }
 
         return answer;
