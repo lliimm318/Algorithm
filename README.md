@@ -4,10 +4,10 @@
 백준 / 프로그래머스 코드를 커밋하는 레포
 
 ```
-ㄴ baekjoon
-ㄴ programmers
-	ㄴ level 
-		
+algorithm
+	ㄴ baekjoon
+	ㄴ programmers
+		ㄴ level 	
 ```
 
 ### 커밋 규칙

@@ -1,6 +1,6 @@
 package com.company.Algorithm.algorithm.programmers.level1.watermelon;
 
-// 12922번 수박수박수박수박수박수?
+// 12922번 수박수박수박수박수박수? 
 public class Main {
     public static void main(String[] args) {
         int n = 3;
