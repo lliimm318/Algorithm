@@ -2,7 +2,7 @@ package com.company.Algorithm.algorithm.programmers.level2.cache;
 
 import java.util.ArrayList;
 
-// 176890번 1차 캐시
+// 176890번 1차 캐시 
 public class Main {
     public static void main(String[] args) {
         int cacheSize =  2;
