@@ -7,8 +7,7 @@
 algorithm
 	ㄴ baekjoon
 	ㄴ programmers
-		ㄴ level 
-		
+		ㄴ level 	
 ```
 
 ### 커밋 규칙
