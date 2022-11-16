@@ -6,8 +6,14 @@
 ```
 algorithm
 	ㄴ baekjoon
+		ㄴ bronze
+		ㄴ silver
+		ㄴ gold
 	ㄴ programmers
-		ㄴ level 	
+		ㄴ level0
+		ㄴ level1
+		ㄴ level2
+		ㄴ level3
 ```
 
 ### 커밋 규칙
