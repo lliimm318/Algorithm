@@ -6,7 +6,6 @@
 ```
 algorithm
 	ㄴ baekjoon
-		ㄴ bronze
 		ㄴ silver
 		ㄴ gold
 	ㄴ programmers
