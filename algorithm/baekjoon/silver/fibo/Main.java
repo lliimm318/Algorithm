@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        if (n == 0) return;
         int max = 0;
         List<Integer> list = new ArrayList<>();
 
@@ -18,8 +17,13 @@ public class Main {
             list.add(a);
             if (max < a) max = a;
         }
+        if (list.size() == 1 && list.get(0) == 0) {
+            System.out.println("0 0");
+            return;
+        }
 
         long[][] dp = new long[max+1][2];
+
         dp[0][0] = 1; // 0일 때 0의 수
         dp[0][1] = 0; // 0일 때 1의 수
         dp[1][0] = 0;
