@@ -1,0 +1,1 @@
+        if (visited[index]) return;
