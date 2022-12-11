@@ -17,10 +17,10 @@ public class Main {
         String[] arr = number.toString().split("0");
 
         for(String s : arr){
-            System.out.println(s);
             if(s.equals("")) continue;
 
-            if(isPrime(Long.parseLong(s))){
+            long num = Long.parseLong(s);
+            if(num >= 2 && isPrime(num)) {
                 answer++;
             }
         }
@@ -28,10 +28,8 @@ public class Main {
         return answer;
     }
 
-    public static boolean isPrime (long a){
-        if(a < 2) return false;
-
-        for(int i = 2; i <= Math.sqrt(a); i++){
+    public static boolean isPrime (long a) {
+        for(int i = 2; i <= Math.sqrt(a); i++) {
             if(a % i == 0){
                 return false;
             }
