@@ -8,7 +8,7 @@ algorithm
 	ㄴ baekjoon
 		ㄴ silver
 		ㄴ gold	
-	ㄴ       ㄴ leetcode	
+	ㄴ leetcode	
 	ㄴ programmers
 		ㄴ level0
 		ㄴ level1
