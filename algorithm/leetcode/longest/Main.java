@@ -1,5 +1,7 @@
 package com.company.Algorithm.algorithm.leetcode.longest;
 
+import java.util.HashMap;
+
 // Longest Substring Without Repeating Characters
 public class Main {
     public static void main(String[] args) {
@@ -9,22 +11,19 @@ public class Main {
     }
 
     public static int lengthOfLongestSubstring(String s) {
-        int answer = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (answer > s.length() - i) {
-                return answer;
-            }
+        int start = 0;
+        int max = 0;
 
-            for (int j = i; j < s.length()-1; j++) {
-                if (s.charAt(j) == s.charAt(j+1)) {
-                    answer = 0;
-                    break;
-                }
-                answer++;
-            }
-        }
+       for (int i = 0; i < s.length(); i++) {
+           if (map.get(s.charAt(i)) != null && map.get(s.charAt(i)) >= start) {
+               start = map.get(s.charAt(i)) + 1;
+           }
+           map.put(s.charAt(i), i);
+           max = Math.max(max, i-start+1);
+       }
 
-        return 0;
+        return max;
     }
 }
