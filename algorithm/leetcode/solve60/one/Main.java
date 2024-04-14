@@ -27,7 +27,6 @@ public class Main {
                 break;
             }
         }
-
         return result;
     }
 }
