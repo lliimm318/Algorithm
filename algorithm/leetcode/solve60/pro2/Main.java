@@ -1,4 +1,4 @@
-package com.company.Algorithm.algorithm.leetcode.solve60.two;
+package com.company.Algorithm.algorithm.leetcode.solve60.pro2;
 
 // AddTwoNumbers
 // https://leetcode.com/problems/add-two-numbers/description/?envType=list&envId=xo2bgr0r

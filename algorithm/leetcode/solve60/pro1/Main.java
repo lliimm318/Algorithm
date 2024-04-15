@@ -1,4 +1,4 @@
-package com.company.Algorithm.algorithm.leetcode.solve60.one;
+package com.company.Algorithm.algorithm.leetcode.solve60.pro1;
 
 // 1. Two Sum
 // https://leetcode.com/problems/two-sum/?envType=list&envId=xo2bgr0r
